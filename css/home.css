@@ -1,0 +1,1289 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+nav {
+  background-color: white;
+  padding: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.nav-bar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: green;
+  padding: 20px 0;
+  /* Add padding to the navigation bar */
+  margin-bottom: 5px;
+}
+
+.nav-bar li {
+  color: white;
+  margin: 0 80px;
+  /* Add margin between navigation items */
+  font-weight: bold;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: color 0.2s;
+  /* Add a smooth color transition on hover */
+  font-family: Calibri, ;
+}
+
+.nav-bar a:hover {
+  color: orange;
+  /* Change the text color on hover */
+}
+
+.logo-container {
+  display: flex;
+
+}
+
+.logo-container img {
+  width: 250px;
+  height: 120px;
+  margin-right: 10px;
+
+}
+
+.logo-text {
+  color: green;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+
+}
+
+.contact-info {
+  color: orange;
+  margin: auto;
+  font-size: 18px;
+}
+
+.quote-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+
+
+.content {
+  padding: 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+  /* Example background color for content */
+
+}
+
+/* ... (Previous styles remain unchanged) */
+
+/* Top bar styles */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Social media icons in the top bar */
+.social-media1 {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  /* Adjust the margin as needed */
+}
+
+.social-media1 a {
+  color: green;
+  font-size: 24px;
+  /* Increase the icon size */
+  margin-right: 10px;
+  text-decoration: none;
+  transition: color 0.2s;
+  /* Add a smooth color transition on hover */
+}
+
+.social-media1 a:hover {
+  color: #00AFFF;
+  /* Change the icon color on hover */
+}
+
+/* ... (Remaining styles remain unchanged) */
+
+.contact-info p {
+  margin: 5px 0;
+  color: orange;
+}
+
+.contact-info {
+  color: white;
+}
+
+.contact-info i {
+
+  color: #FF5733;
+  /* Set color for icons */
+  font-size: 18px;
+}
+
+.secondary-nav {
+  background-color: green;
+
+  margin: 0;
+  padding: 5px;
+  list-style: none;
+  text-align: justify;
+
+}
+
+.secondary-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px -5px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.secondary-nav a:hover {
+  background-color: gainsboro;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+  /* Example background color for content */
+  height: auto;
+}
+
+
+
+.what-we-offer.custom-bg {
+  background-color: #5e1e1e;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.what-we-offer.custom-bg a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.slider-wrapper {
+  position: relative;
+  max-width: 48rem;
+  margin: auto;
+}
+
+.slider {
+  display: flex;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  /* Hide the scroll bar */
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0.25);
+  border-radius: 0.5rem;
+}
+
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+  width: 100%;
+  /* Make images responsive */
+  height: auto;
+}
+
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.slider-nav a {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+  opacity: 100%;
+}
+
+.content {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.content {
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+
+.content-under-slider {
+  text-align: center;
+  margin-top: 20px;
+  padding: 100px 0;
+  font-size: x-large;
+  color: black;
+}
+
+.content-under-slider h2 {
+  color: green;
+  font-size: 50px;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.contact-button:hover {
+  background-color: #45a049;
+}
+
+.about-us {
+  margin-top: 30px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.aboutt-us h2 {
+  text-decoration: none;
+  font-weight: bold;
+  /* Add bold font weight */
+  color: #45a049;
+  font-size: xx-large;
+  text-align: center;
+  margin-left: 30px;
+  border: 2px solid #45a049;
+  /* Add a 2px solid border with your preferred color */
+  border-radius: 3px;
+  /* Add border-radius for curved edges */
+  padding: 10px;
+  /* Add padding to give space between text and border */
+  transition: background-color 0.3s, border-color 0.3s;
+  /* Add smooth transitions for background color and border color */
+}
+
+.aboutt-us h2:hover {
+  background-color: #e0e0e0;
+  /* Change the background color on hover */
+  border-color: #30a030;
+  /* Change the border color on hover */
+}
+
+
+
+
+.about-us-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: justify;
+  font-size: larger;
+  font-style: italic;
+  font-weight: bold;
+  padding: 20px;
+  background-color: white;
+  transition: transform 0.2s;
+}
+
+.about-us-content img {
+  max-width: 350px;
+  /* Adjust the image width as needed */
+  max-height: 350px;
+  margin-left: 10px;
+  /* Add spacing between image and text */
+  border: 4px solid #4CAF50;
+  /* Add a border with a green color (adjust as needed) */
+  border-radius: 10px;
+  /* Add rounded corners to the border */
+  transition: transform 0.2s;
+  /* Add a smooth hover effect */
+}
+
+.about-us-content img:hover {
+  transform: scale(1.05);
+  /* Add pop-up effect on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* Add a subtle shadow on hover */
+}
+
+.about-us-content p {
+  max-width: 55%;
+  /* Adjust the width of the text */
+  line-height: 1.6;
+  color: black;
+}
+
+.content-header {
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  color: green;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+
+.content-header h2 {
+  margin-bottom: 10px;
+  /* Adjust the margin as needed */
+}
+
+.faqs-button a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: green;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 35px;
+}
+
+.faqs-button {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.faqs-button:hover {
+  background-color: #45a049;
+  /* Darker green on hover */
+}
+
+/* Style for the "What We Offer" section with a different background color */
+.custom-bg {
+  background-color: #000000;
+  /* Black background color */
+  padding: 20px;
+  /* Add padding to create some space around the content */
+}
+
+
+.section-title {
+  font-size: xx-large;
+  color: violet;
+
+  margin-bottom: 100px;
+}
+
+
+.content {
+  color: #fff;
+  font-size: x-large;
+  background-color: #000;
+  text-decoration: none;
+}
+
+
+
+/* Style for the "What We Offer" section with a different background color */
+.what-we-offer.custom-bg {
+  background-color: green;
+  /* Black background color */
+  color: #fff;
+  /* Text color */
+  padding: 50px 0;
+  /* Padding to provide some space inside the container */
+  text-align: center;
+  /* Center-align text */
+  margin-top: 80px;
+}
+
+.what-we-offer.custom-bg h2 a {
+  text-decoration: none;
+  /* Add underline to the link text */
+  font-weight: bold;
+  /* Add bold font weight to the link text */
+  color: white;
+  /* Text color for the link */
+  background-color: green;
+  /* Background color for the link */
+  padding: 30px;
+  /* Add padding to the link */
+  font-size: 40px;
+  /* Adjust the font size */
+  margin-top: 50px;
+}
+
+.what-we-offer.custom-bg p {
+  margin-top: 30px;
+  /* Add some space above the paragraph */
+  font-size: 20px;
+  /* Adjust the font size */
+  /* padding: 20; */
+  background-color: green;
+}
+
+/* Style for the additional paragraphs in the "What We Offer" section */
+.what-we-offer.custom-bg p {
+  font-size: 18px;
+  /* Adjust the font size for additional paragraphs */
+}
+
+
+
+
+footer {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style for the copyright notice */
+.copyright {
+  color: #333;
+  /* Dark text color */
+  display: inline-block;
+  /* Align to the left */
+  padding: 100px;
+  margin: 0;
+  /* Remove default margin */
+  font-size: large;
+}
+
+
+.social-media1 {
+  display: inline-block;
+  /* Align to the right */
+  margin-left: 50px;
+}
+
+
+.social-icons a {
+  margin-left: 10px;
+  /* Add space between icons */
+  color: #333;
+  /* Dark text color */
+  text-decoration: none;
+  font-size: larger;
+
+}
+
+.scroll-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.scroll-to-top i {
+  font-size: 20px;
+}
+
+/* Show the button when scrolling down */
+body.scrolling .scroll-to-top {
+  display: block;
+}
+
+
+
+.servedd {
+  color: green;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.served {
+  color: black;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: x-large;
+}
+
+.serve {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 70px;
+  margin-top: 10px;
+  /* Add margin at the top to increase the distance from the navbar */
+  background-color: white;
+}
+
+.fit-horizontal {
+  width: 1150px;
+  height: 500px;
+  /* Maintain the aspect ratio */
+  margin-top: 40px;
+  /* Adjust the margin as needed */
+}
+
+.title {
+  font-size: 24px;
+  color: #333;
+  padding: 100px;
+}
+
+.description {
+  font-size: 16px;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ok {
+  text-align: center;
+}
+
+img {
+
+  vertical-align: middle;
+  border-style: none;
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+
+}
+
+
+
+
+.event-item i {
+  font-size: 30px;
+  /* Increase the font size of the icons */
+  color: green;
+}
+
+
+.event-item {
+  background-color: white;
+  /* Background color for each event item */
+  border: 2px solid green;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  width: 96%;
+  /* Each event item takes up one-third of the screen width */
+  transition: transform 0.2s;
+  /* Add a smooth hover effect */
+  color: green;
+  /* Center the text within each event item */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+
+
+.contact-form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: lighter;
+  margin-bottom: 5px;
+  font-size: 25px;
+  color: green;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  height: 50px;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 5px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-group-inline {
+  display: flex;
+  gap: 20px;
+}
+
+.form-group-inline .form-group {
+  flex: 1;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.space-above-header {
+  margin-top: 100px;
+  /* Adjust the margin as needed for the space above the header */
+}
+
+.main-header {
+  font-weight: bold;
+  color: green;
+  text-align: center;
+  font-size: 30px;
+}
+
+.ok {
+  text-align: center;
+  font-style: initial;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.main-header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.contact-details {
+  background-color: #A1CFA0;
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  text-align: center;
+  font-size: 25px;
+}
+
+.contact-item i {
+  margin-right: 10px;
+}
+
+#map {
+  margin-top: 100px;
+  text-align: center;
+  background-color: white;
+}
+
+.map-container {
+  background-color: white;
+  /* Set your desired background color */
+  padding: 20px;
+  /* Add padding to create space between the map and the container */
+  border-radius: 8px;
+  /* Add border-radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Add box shadow for a subtle effect */
+  overflow: hidden;
+  /* Hide overflowing content */
+}
+
+.get-in-touch {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.get-in-touch a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: green;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 35px;
+}
+
+.faq-container {
+  padding: 20px;
+  background-color: #A1CFA0;
+}
+
+.faq-item {
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: white;
+  color: darkgreen;
+}
+
+.faq-item h3 {
+  margin-top: 0;
+  font-style: initial;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.faq-item p {
+  font-style: initial;
+  font-size: 20px;
+  font-weight: lighter;
+  color: black;
+}
+
+.faq-contain {
+  text-align: center;
+  /* Center-align the content */
+  padding: 20px;
+  margin: auto;
+  /* Center the container */
+}
+
+.about-us-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.content-header h2 {
+  text-decoration: underline;
+  font-style: normal;
+  color: green;
+  font-size: x-large;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+.about-us-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.about-us-header {
+  text-decoration: underline;
+  /* Add underline to the header text */
+  font-weight: bold;
+  /* Add bold font weight to the header text */
+  color: #45a049;
+  font-size: xx-large;
+  text-align: center;
+  margin-bottom: 20px;
+  /* Adjust the margin as needed */
+}
+
+.about-us-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about-us-content img {
+  width: 40%;
+  /* Ensure the image takes up 100% width of its container */
+  height: auto;
+  margin-bottom: 20px;
+  /* Add space between image and header */
+}
+
+.about-us-header {
+  text-decoration: underline;
+  /* Add underline to the header text */
+  font-weight: bold;
+  /* Add bold font weight to the header text */
+  color: #45a049;
+  font-size: xx-large;
+  text-align: center;
+  margin-bottom: 20px;
+  /* Adjust the margin as needed */
+}
+
+.faqs-button {
+  display: inline-block;
+  padding: 30px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+
+}
+
+.faqs-button:hover {
+  background-color: #45a049;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 15px;
+  /* Adjust the padding for more space */
+  margin: 40px;
+  background-color: white;
+  /* Green background color */
+}
+
+.image-wrapper {
+  text-align: center;
+  margin: 0 20px;
+  /* Adjust the margin between images */
+  font-size: xx-large;
+}
+
+.image-wrapper {
+  margin-bottom: 10px;
+  /* Adjust the margin between image wrappers */
+}
+
+
+.image-wrapper img {
+  width: 200px;
+  /* Increase the width of the images */
+  height: 200px;
+  /* Increase the height of the images */
+  object-fit: cover;
+  /* Maintain the aspect ratio */
+  margin-bottom: 15px;
+  /* Adjust the margin between image and text */
+  transition: transform 0.2s;
+  /* Add a smooth hover effect */
+}
+
+
+/* Your other styles remain unchanged */
+
+
+.image-wrapper img:hover {
+  transform: scale(1.1);
+  /* Scale up the image on hover */
+}
+
+
+.name {
+
+  margin-bottom: 10px;
+  /* Adjust the margin between name and position */
+  font-style: initial;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.position {
+  font-size: 20px;
+  /* Adjust the font size for the position */
+  margin-bottom: 10px;
+  /* Adjust the margin between position and social icons */
+  color: black;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  /* Adjust the margin between icons */
+}
+
+.social-icons img {
+  width: 25px;
+  /* Increase the width of the icons */
+  height: 25px;
+  /* Increase the height of the icons */
+}
+
+
+@media screen and(max-width:1200px) {
+  .nav-bar {
+    width: 100%;
+    height: 100px;
+  }
+
+  ul {
+    margin-left: 30px;
+  }
+
+  ul li a {
+    font-size: 1.6vw;
+  }
+}
+
+.map-container {
+  background-color: #f4f4f4;
+  /* Set your desired background color */
+  padding: 20px;
+  /* Add padding to create space between the map and the container */
+  border-radius: 8px;
+  /* Add border-radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Add box shadow for a subtle effect */
+  overflow: hidden;
+  /* Hide overflowing content */
+}
+
+
+
+/* Apply styles to the "what-we-offer" class */
+.what-we-offer {
+  background-color: green;
+  /* Set a background color */
+  padding: 20px;
+  /* Add some padding for spacing */
+}
+
+/* Style the h1 and h2 elements within the "what-we-offer" class */
+.what-we-offer h1 {
+  color: white;
+  /* Set text color */
+  margin-bottom: 8px;
+  /* Add bottom margin for spacing between paragraphs */
+  text-align: center;
+  font-size: x-large;
+  font-weight: lighter;
+
+
+}
+
+.what-we-offer h2 {
+  color: white;
+  /* Set text color */
+  font-family: 'Arial', sans-serif;
+  /* Specify font family */
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* Style the p elements within the "what-we-offer" class */
+.what-we-offer p {
+  color: white;
+  /* Set text color */
+  margin-bottom: 8px;
+  /* Add bottom margin for spacing between paragraphs */
+  text-align: center;
+  font-size: x-large;
+}
+
+/* Apply bullet points to the p elements within the "what-we-offer" class */
+.what-we-offer p::before {
+  content: '\2022';
+  /* Unicode character for a bullet point */
+  display: inline-block;
+  /* width: 1.5em; */
+  /* Adjust the width for spacing */
+  /* margin-left: 3em; */
+  /* Adjust the margin for proper alignment */
+  color: white;
+  /* Set bullet color */
+  font-size: xx-large;
+}
+
+.ptag {
+  font-style: initial;
+  font-size: 25px;
+  font-weight: lighter;
+  word-spacing: 5px;
+  line-height: 1.5;
+
+}
+
+.ptaggg {
+  font-style: initial;
+  font-size: 25px;
+  font-weight: lighter;
+  word-spacing: 5px;
+  line-height: 1.5;
+  max-width: 50%;
+}
+
+.ptag2 {
+  font-style: initial;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.contact-form-container {
+  background-color: white;
+
+}
+
+.map {
+  background-color: #30a030;
+}
+
+.fa-solid fa-phone {
+  color: #000;
+}
+
+.light {
+  font-size: 25px;
+  font-weight: lighter;
+  /* max-width: 120%;
+  line-height: 1.5;
+  margin-left: 120px;
+  word-spacing: 10px; */
+}
+
+.lighter {
+  font-size: 25px;
+  font-weight: lighter;
+  /* max-width: 120%; */
+  line-height: 1.5;
+  /* margin-left: 120px; */
+  word-spacing: 10px;
+}
+
+.lighterr {
+  font-size: 25px;
+  font-weight: lighter;
+  /* max-width: 120%; */
+  line-height: 1.5;
+  /* margin-right: 100px; */
+  word-spacing: 10px;
+}
+
+.light2 {
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  color: green;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.light22 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: green;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.light222 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: green;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+
+.first-image {
+  margin-bottom: 70px;
+  border: 4px solid #4CAF50;
+  /* Add a green border to the first image */
+  border-radius: 10px;
+  /* Add rounded corners to the border */
+  padding: 10px;
+}
+
+.yoman {
+  /* display: flex; */
+  background-color: #D4E1BE;
+  align-items: center;
+  /* Center vertically */
+  /* max-width: fit-content; */
+  padding: 80px;
+}
+
+.yoman1 {
+  display: flex;
+  background-color: #D4E1BE;
+  align-items: center;
+  /* Center vertically */
+  max-width: fit-content;
+  padding: 80px;
+}
+
+.yomann {
+  display: flex;
+  background-color: #D4E1BE;
+  align-items: center;
+  /* Center vertically */
+  /* max-width: fit-content; */
+  padding: 100px;
+}
+
+.yomannn {
+  display: flex;
+  background-color: #D4E1BE;
+  align-items: center;
+  /* Center vertically */
+  max-width: fit-content;
+  padding: 70px;
+
+}
+
+.yoman img {
+  max-width: 350px;
+  /* Adjust the image width as needed */
+  max-height: 350px;
+  border: 4px solid #4CAF50;
+  /* Add a border with a green color (adjust as needed) */
+  border-radius: 10px;
+  /* Add rounded corners to the border */
+  transition: transform 0.2s;
+  /* Add a smooth hover effect */
+}
+
+
+
+.yomann img {
+  max-width: 350px;
+  /* Adjust the image width as needed */
+  max-height: 350px;
+  margin-left: 10px;
+  /* Add spacing between image and text */
+  border: 4px solid #4CAF50;
+  /* Add a border with a green color (adjust as needed) */
+  border-radius: 10px;
+  /* Add rounded corners to the border */
+  transition: transform 0.2s;
+  /* Add a smooth hover effect */
+}
+
+.yoman img:hover {
+  transform: scale(1.1);
+  /* Scale up the image on hover */
+}
+
+.yomann img:hover {
+  transform: scale(1.1);
+  /* Scale up the image on hover */
+}
+
+.contact-buttonn {
+
+  display: inline-block;
+  background-color: #4CAF50;
+  /* Green background color */
+  color: #fff;
+  /* White text color */
+  text-decoration: none;
+  border-radius: 5px;
+  /* Add rounded corners */
+  text-align: center;
+  /* margin-top: 50px;
+   margin-left: 300px; */
+
+}
+
+.Goddid {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+  color: green;
+}
+
+.image-containeer {
+  position: relative;
+  width: 1350px;
+  /* Set the desired width */
+  height: 500px;
+  /* Set the desired height */
+  overflow: hidden;
+  /* Hide overflowing content */
+}
+
+.image-containeer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Preserve aspect ratio and cover the container */
+}
+
+
+@media (max-width: 1000px) {
+  .logo-container {
+    text-align: center;
+    display: block;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .social-media1 {
+    text-align: center;
+    display: block;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-under-slider {
+    text-align: center;
+  }
+
+  .yoman{
+    /* flex: 100%;
+    max-width: 100%; */
+    padding: 80px 0;
+  }
+
+  .what-we-offer h1 {
+    font-size: 20px;
+  }
+
+  .yomann {
+    display: grid;
+    padding: 100px 0;
+  }
+  .serve {
+    padding: 70px 0;
+  }
+}
+
